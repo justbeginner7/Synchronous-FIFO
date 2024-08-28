@@ -1,2 +1,2 @@
 # Synchronous-FIFO
-Synchronous FIFO design implemented using Xilinx software (Verilog)
+Synchronous FIFO design implemented using ModelSim software (Verilog)
