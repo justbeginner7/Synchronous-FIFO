@@ -24,8 +24,8 @@ module fifo_testbench();
 	integer i;
 	
 	initial begin
-		$dumpfile("fifo.vcd");
-        $dumpvars(0, fifo_testbench);
+		$dumpfile("fifo.vcd"); // command for dumpfile if using icarus verilog and gtkwave
+		$dumpvars(0, fifo_testbench);  // command for dumpvars if using icarus verilog and gtkwave
 		
 		rst_n = 1'b1;
 		write_en = 1'b0;
